@@ -77,7 +77,7 @@ export function Testimonials() {
       ref={sectionRef}
       className="relative py-20 md:py-32 bg-gradient-to-b from-[#F9FAFB] to-[#F3F4F6] overflow-hidden"
     >
-      <div className="container px-4 md:px-8">
+      <div className="container px-4 md:px-8 max-w-[1200px] mx-auto">
         <div className="mx-auto max-w-3xl text-center mb-16">
           <h2
             className={`font-serif text-3xl font-bold text-[#0B1526] md:text-4xl lg:text-5xl text-balance mb-6 transition-all duration-600 ${

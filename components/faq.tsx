@@ -64,7 +64,7 @@ export function FAQ() {
       ref={sectionRef}
       className="py-20 md:py-32 bg-gradient-to-b from-white to-[#F9FAFB] relative overflow-hidden"
     >
-      <div className="container px-4">
+      <div className="container px-4 max-w-[1200px] mx-auto">
         <div className="mx-auto max-w-[850px] text-center mb-16">
           <h2
             className={`fade-up-element font-serif text-3xl font-bold text-[#0B1526] md:text-[46px] lg:text-[50px] text-balance mb-4 ${!hasAnimated ? "opacity-0" : ""} [animation-delay:200ms]`}

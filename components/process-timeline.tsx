@@ -97,7 +97,7 @@ export function ProcessTimeline() {
         }}
       />
 
-      <div className="container px-5 md:px-8 relative z-10">
+      <div className="container px-5 md:px-8 relative z-10 max-w-[1200px] mx-auto">
         <div className="mx-auto max-w-3xl text-center mb-16 md:mb-20">
           <h2 className="fade-up-element font-serif text-[30px] font-bold text-[#0B1526] md:text-[44px] lg:text-[50px] leading-tight text-balance mb-4">
             Proceso de atención

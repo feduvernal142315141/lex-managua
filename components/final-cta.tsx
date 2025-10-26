@@ -39,7 +39,7 @@ export function FinalCTA() {
         <div className="absolute inset-0 bg-[url('/abstract-legal-pattern.png')] bg-cover bg-center" />
       </div>
 
-      <div className="container px-4 relative z-10">
+      <div className="container px-4 md:px-8 relative z-10 max-w-[1200px] mx-auto">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="fade-in-element font-serif text-3xl font-bold md:text-4xl lg:text-5xl text-balance mb-6">
             Tu caso merece atención inmediata

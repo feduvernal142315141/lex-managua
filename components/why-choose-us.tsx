@@ -73,7 +73,7 @@ export function WhyChooseUs() {
         }}
       />
 
-      <div className="container px-4 md:px-8 relative z-10">
+      <div className="container px-4 md:px-8 relative z-10 max-w-[1200px] mx-auto">
         <div className="mx-auto max-w-3xl text-center mb-16 md:mb-20">
           <h2 className="fade-up-element font-serif text-3xl font-bold text-[#0B1526] md:text-[46px] lg:text-[52px] leading-tight text-balance mb-4">
             Tu tranquilidad legal empieza aquí
@@ -91,7 +91,7 @@ export function WhyChooseUs() {
           </div>
         </div>
 
-        <div className="grid gap-8 md:gap-10 md:grid-cols-2 lg:grid-cols-3 max-w-[1200px] mx-auto">
+        <div className="grid gap-8 md:gap-10 md:grid-cols-2 lg:grid-cols-3">
           {reasons.map((reason, index) => {
             const Icon = reason.icon
             return (
